@@ -1,0 +1,45 @@
+.keys-container {
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+    gap: 20px;
+    position: absolute;
+    left: 50%;  top: 50%;
+    transform: translate(-50%, -50%);
+
+
+}
+
+.key-box {
+    padding: 10px;
+    background-color: transparent;
+    border: 2px solid black;
+    border-radius: 5px;
+    width: 120px;
+    height: 120px;
+    box-sizing: border-box;
+    transition: all 0.07s ease;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    kbd {
+        margin-bottom: 5px;
+        color: black;
+        font-size: xx-large
+    }
+
+    span {
+        color: gold;
+        font-size: large;
+    }
+}
+
+.playing {
+    scale: 1.02;
+    box-shadow: 
+    0 0 10px rgba(255, 215, 0, 0.5),
+    0 0 20px rgba(255, 215, 0, 0.4),
+    0 0 30px rgba(255, 215, 0, 0.3);  
+}
